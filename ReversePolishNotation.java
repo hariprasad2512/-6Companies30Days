@@ -9,7 +9,6 @@ class Solution{
             else if ("*".equals(s)) stack.push(stack.pop() * stack.pop());
             else stack.push(Integer.valueOf(s));
         }
-
         return stack.pop();
     }
 }
